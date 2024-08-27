@@ -1,6 +1,10 @@
 server:
   port: 8088
 
+spring:
+ application:
+  name: Config_dev
+
 eureka:
   instance:
     prefer-ip-address: true
